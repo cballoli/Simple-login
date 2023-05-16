@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to left, yellow, green);
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+    border-radius: 20px;
+    margin: 15px auto;
+    
+}
+
+form button{
+    margin-bottom: 25px auto;
+}
+
+.container{
+    background-image: linear-gradient(to bottom left, rgb(238, 255, 0), rgb(0, 255, 255));
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+form {
+    padding: 7px 15px;
+}
+
+.form {
+    padding: 7px 10px;
+}
+
+.form .form-control{
+    border-radius: 15px;
+}

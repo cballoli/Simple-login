@@ -1,0 +1,11 @@
+<%- include('header') -%>
+
+<div class="text-center center-div mt-5 py-5" id="login">
+    <div class="container" style="padding: 15px auto;">
+        <h3>Welcome to Express Dashboard</h3>
+        <h5><%= locals.user ? user : 'User' %></h5>
+        <a href="/route/logout">Logout</a>
+    </div>
+</div>
+
+<%- include('footer') -%>
